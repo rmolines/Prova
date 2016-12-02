@@ -13,13 +13,6 @@
   </head>
   <body>   
   
-<h1>Adicionar tarefas</h1>
-    <form action="adicionaUsuario" method="post">
-    	Descrição: <br/>
-    	<textarea name="usuario"></textarea><br/>
-    	<input type="submit" value="Adicionar">
-    </form>
-  
     <h2>Aperte o botão para jogar!</h2>
     <button id="teste">Jogar!</button>
     
@@ -43,9 +36,9 @@
 	  $('#teste').after(getResult()[0]);
 	  
 	  if (getResult()[1]){
-	  	$('#sorteado').after('<h1>Você Ganhou!!!</h1>');
+	  	$('#sorteado').after('<h1>Voce Ganhou!!!</h1>');
 	  } else {
-	  	$('#sorteado').after('<h1>Você Perdeu.</h1>');	  
+	  	$('#sorteado').after('<h1>Voce Perdeu.</h1>');	  
 	  }
 	  $("#teste").prop("disabled",true);
   });

@@ -7,9 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Adicionar tarefas</h1>
+<h1>Digite seu usuario</h1>
     <form action="adicionaUsuario" method="post">
-    	Descrição: <br/>
+    	Usuario: <br/>
     	<textarea name="usuario"></textarea><br/>
     	<input type="submit" value="Adicionar">
     </form>

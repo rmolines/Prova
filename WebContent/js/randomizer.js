@@ -18,7 +18,7 @@ function getResult(){
     var text = "<h2 id='sorteado'>Sorteado:" + sym1 + comma +  
 	  sym2 + comma + sym3 + "</h2>";
     
-    var result = (sym1 === sym2 && sym2 === sym3);
+    var result = (sym1 == sym2) && (sym2 == sym3);
 	  
 	return [text, result];
 }
